@@ -1,6 +1,8 @@
 const { readFile, writeFile } = require('fs')
+const modby = require("modby");
 
 console.log('1')
+console.log('14 % 8 = ',modby(14, 8));
 readFile('./content/first.txt', 'utf8', (err, result) => {
   if (err) {
     console.log(err)
