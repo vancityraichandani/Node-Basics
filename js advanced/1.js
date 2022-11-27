@@ -1,6 +1,5 @@
-let somesh = 'somesh'
-let devesh = 'devesh';
+const fruits = ['apple', 'orange','banana', 'cheeku'];
 
-[somesh, devesh] = [devesh, somesh];
+const [first, ...rest] = fruits;
 
-console.log(somesh, devesh);
+console.log(first);
