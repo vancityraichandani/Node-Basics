@@ -1,5 +1,12 @@
-const fruits = ['apple', 'orange','banana', 'cheeku'];
+let val = 2.1
 
-const [first, ...rest] = fruits;
 
-console.log(first);
+let result = async () => {
+    if (val == 2) {
+        return (val);
+    } else {
+        return ("error boy");
+    }
+}
+
+result().then((data) => console.log('resssolve ' + data)).catch((err) => console.log(err))
